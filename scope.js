@@ -18,3 +18,20 @@ for (let i = 0; i < 10; i++) {
 
 }
 // console.log(i);
+
+
+// 
+let bonus = 20;
+
+function sum1(first, second) {
+    //return first + second;
+    let result = (first + second + bonus);
+    console.log(bonus);
+    if (result > 9) {
+        const mood = "Happy";
+        console.log(mood);
+    }
+    return result;
+}
+const output = sum1(3, 7);
+console.log(output);
